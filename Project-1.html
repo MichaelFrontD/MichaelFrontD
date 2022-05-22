@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first project</title>
+        <h1>My <mark>first</mark> project</h1>
+        <p>I will use only HTML tags and attributes!</p>
+    </head>
+    <body>
+        <p>Adding images like this:</p>
+            <figure>
+            <img src="https://m.media-amazon.com/images/I/81JsuwPeEDL._AC_SL1500_.jpg" width="500" height="300" alt="polaroid">
+            <figcaption>Polaroid - 9028</figcaption>
+            </figure>
+        <br>
+            <em>Seems a bit too big. Let resize it!</em>
+        <p></p> 
+        <figure>
+        <img src="https://m.media-amazon.com/images/I/81JsuwPeEDL._AC_SL1500_.jpg" width="300" height="180" alt="polaroid" figcaption="Polaroid - 9028">
+        <figcaption>Resisezd Polaroid - 9028</figcaption>
+        </figure>
+        <p>
+            <strong>In case you are wondering,</strong>
+            <bold>you can <a href="https://www.amazon.it/Polaroid-9028-Fotocamera-istantanea-I-Type/dp/B085PQCF7Y?th=1" target="_blank">BUY IT HERE</a>.</bold>
+        </p>
+        <p>
+            <h4>Might as well help you out here</h4>
+        </p>
+        <!--let's create a table-->
+        <table>
+            <caption><bold>Polaroid Camera</bold></caption>
+            <th>Color</th>
+            <th>Image/Link</th>
+            <th>Price</th>
+            <tr>
+                <td>Black</td>
+                <td><a href="https://www.amazon.it/Polaroid-9028-Fotocamera-istantanea-I-Type/dp/B085PQCF7Y?th=1"><img 
+                        src="https://m.media-amazon.com/images/I/81Ws-o643gL._AC_SX679_.jpg" height="60" width="100" a 
+                        href="https://www.amazon.it/Polaroid-9028-Fotocamera-istantanea-I-Type/dp/B085PQCF7Y?th=1" target="_blank"
+                        alt="Black Polaroid"></a></td>
+                <td>€119.00</td>
+            </tr>
+            <tr>
+                <td>White</td>
+                <td><a href="https://www.amazon.it/dp/B085PM3PTZ/ref=twister_B086TG2NL4?_encoding=UTF8&th=1">
+                    <img src="https://m.media-amazon.com/images/I/71K3+16n5tL._AC_SX679_.jpg" height="60" width="100" 
+                    href="https://www.amazon.it/Polaroid-9028-Fotocamera-istantanea-I-Type/dp/B085PQCF7Y?th=1" target="_blank"
+                    alt="White Polaroid"></a></td>
+                <td>€115.99</td>
+            </tr>
+            <tr>
+                <td>Blue</td>
+                <td><a href="https://www.amazon.it/dp/B085PM3PTZ/ref=twister_B086TG2NL4?_encoding=UTF8&th=1">
+                    <img src="https://m.media-amazon.com/images/I/81uMyqSJ8mL._AC_SX679_.jpg" height="60" width="100"
+                        href="https://www.amazon.it/dp/B085PQSY99/ref=twister_B086TG2NL4?_encoding=UTF8&th=1"
+                        target="_blank"
+                        alt="Blue Polaroid"></a></td>
+            <td>€125.24</td>
+            </tr>
+        </table>
+        <!--Let's give choice-->
+        <legend><h4>Do you like to take photos?</h4></legend>
+        <input type="radio" value="choiche" id="yes" name="yes" checked>yes
+        <input type="radio" value="choiche" id="no" name="no">no<br>
+        <input type="submit">
+        <legend><h4>Select your favourite subjects to picture:</h4></legend>
+        <input type="checkbox" value="cbchoiche" id="city" name="city">City<br>
+        <input type="checkbox" value="cbchoiche" id="nature" name="nature">Nature<br>
+        <input type="checkbox" value="cbchoiche" id="animals" name="animals">Animals<br>
+        <input type="checkbox" value="cbchoiche" id="poeple" name="people">People<br>
+        <input type="submit">
+        <br><br>
+        <input type="" placeholder="A reason to take pictures" maxlength="200"> <input type="submit">
+        <!--Creating a list-->
+        <legend><bold><h3>Common reasons to take photos:</h3></bold></legend>
+        <ul>
+            <li>capture memories </li>
+            <li>capture moments</li>
+            <li>tell stories</li>
+            <li>communicate with others</li>
+            <li>improve as a photographer</li>
+        </ul>
+        <!--Giving choice-->
+        <legend>Choose your favourite effect:</legend>
+        <select name="choice">
+            <option name="nofx" id="nofx">No Effects</option>
+            <option name="bnw" id="bnw">Black & White</option>
+            <option  name="sat" id="sat" >Saturated</option>
+            <option  name="ytint" id="ytint" >Yellow tint</option>
+        </select>
+        <input type="submit">
+        </body>
+    <footer>
+        I am learning daily thanks to <a href="https://www.freecodecamp.org/learn"> freecodecamp.org</a>.
+    </footer>
+</html>
